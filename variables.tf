@@ -10,12 +10,12 @@ variable "cluster_version" {
 
 variable "region" {
   type = string
-  default = "ap-southeast-2"
+  default = "us-east-2"
 }
 
 variable "availability_zones" {
   type = list
-  default = ["ap-southeast-2a", "ap-southeast-2b"]
+  default = ["us-east-2a", "us-east-2b"]
 }
 
 
