@@ -8,10 +8,10 @@ variable "cluster_version" {
   default = 1.25
 }
 
-variable "region" {
-  type = string
-  default = "us-east-2"
-}
+# variable "region" {
+#   type = string
+#   default = "us-east-2"
+# }
 
 variable "availability_zones" {
   type = list
