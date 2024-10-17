@@ -1,0 +1,11 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "admin",
+    "password": "yourpassword"
+  },
+  "apiKeys": {
+    "github": "your-github-api-key",
+    "aws": "your-aws-api-key"
+  }
+}
